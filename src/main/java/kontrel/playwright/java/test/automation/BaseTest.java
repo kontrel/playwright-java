@@ -28,6 +28,7 @@ public abstract class BaseTest {
     );
 
     page = context.newPage();
+    page.navigate("https://qatesting.vercel.app/bank");
   } 
 
   @AfterEach
